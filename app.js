@@ -8,7 +8,6 @@ import {
 import { getRandomEmoji } from './utils.js';
 
 // Create an express app
-// trying to trigger a rebuild of the cloud deployment
 const app = express();
 // Get port, or default to 3000
 const PORT = process.env.PORT || 3000;
